@@ -506,6 +506,17 @@ body.intro-open { overflow: hidden; }
 .survey-invite .btn-primary { max-width: 360px; }
 .survey-link { display: block; text-decoration: none; margin-left: auto; margin-right: auto; }
 
+/* 한글 단어 중간 줄바꿈 방지 */
+.hero h1,
+.hero-sub,
+.option-label,
+.option-desc,
+.card-title,
+.card-reason {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
 @media (max-width: 560px) {
   .page { padding-top: 32px; }
   .intro-copy { width: calc(100% - 44px); }
