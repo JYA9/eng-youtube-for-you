@@ -19,11 +19,11 @@ const LEVELS = [
 ];
 
 const CONCERNS = [
-  { value: "grammar", emoji: "😞", label: "문법 지키기가 너무 어려워요" },
-  { value: "vocab", emoji: "🤔", label: "말하려는 순간 단어가 싹 날아가요" },
-  { value: "casual", emoji: "😜", label: "그냥 웃긴 거나 보고 싶어요, 몰라요 몰라" },
-  { value: "advanced", emoji: "🤓", label: "이왕 하는 거 있어 보이게 배우고 싶어요" },
-  { value: "listening", emoji: "👂", label: "원어민이 뭐라는지 하나도 안 들려요" },
+  { value: "grammar", emoji: "😞", label: "문법... 말하면서 어떻게 지키는 거예요?" },
+  { value: "vocab", emoji: "🤔", label: "단어가 생각이 안 나요" },
+  { value: "casual", emoji: "😜", label: "모르겠고 그냥 웃긴 거나 보고 싶어요" },
+  { value: "advanced", emoji: "🤓", label: "고급진 영어를 배우고 싶어요" },
+  { value: "listening", emoji: "👂", label: "리스닝이 안 돼요" },
 ];
 
 const LENGTHS = [
@@ -150,7 +150,7 @@ function render() {
   renderProgress();
 
   if (state.step === "level") {
-    heroTitle.innerHTML = "먼저, 지금 내 영어 레벨부터<br>체크해볼까요?";
+    heroTitle.innerHTML = "먼저, 지금 내 영어 레벨부터 체크해볼까요?";
     heroSub.textContent = "정확할수록 더 잘 맞는 영상을 찾아드려요.";
     app.innerHTML = `
       <div class="step-panel">
@@ -172,8 +172,8 @@ function render() {
   }
 
   if (state.step === "concern") {
-    heroTitle.textContent = "요즘 영어로 말할 때";
-    heroSub.textContent = "제일 걸리는 거, 뭐예요? 솔직하게 골라주세요.";
+    heroTitle.textContent = "요즘 영어로 말할 때 제일 걸리는 계 무엇인가요? ";
+    heroSub.textContent = "솔직하게 골라주세요.";
     app.innerHTML = `
       <div class="step-panel">
         ${renderBackButton(true)}
@@ -196,8 +196,8 @@ function render() {
   }
 
   if (state.step === "length") {
-    heroTitle.textContent = "영상은 얼마나";
-    heroSub.textContent = "볼 수 있어요? 자투리 시간이어도 괜찮아요.";
+    heroTitle.textContent = "영상은 얼마나 볼 수 있어요?";
+    heroSub.textContent = "자투리 시간이어도 충분해요.";
     app.innerHTML = `
       <div class="step-panel">
         ${renderBackButton(true)}
@@ -220,8 +220,8 @@ function render() {
   }
 
   if (state.step === "accent") {
-    heroTitle.textContent = "어떤 억양으로";
-    heroSub.textContent = "배우고 싶어요?";
+    heroTitle.textContent = "어떤 억양으로 배우고 싶어요?";
+    heroSub.textContent = "같은 영어여도 악센트는 수만 가지! 가장 배우고 싶은 것으로 골라보세요.";
     app.innerHTML = `
       <div class="step-panel">
         ${renderBackButton(true)}
