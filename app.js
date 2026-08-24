@@ -27,8 +27,8 @@ const CONCERNS = [
 ];
 
 const LENGTHS = [
-  { value: "under1", emoji: "⚡", label: "1분 미만" },
-  { value: "1to5", emoji: "🎬", label: "1~5분" },
+  { value: "under1", emoji: "⚡", label: "2분 미만" },
+  { value: "2to5", emoji: "🎥", label: "2~5분" },
   { value: "5to10", emoji: "📺", label: "5~10분" },
   { value: "10to20", emoji: "☕", label: "10~20분" },
   { value: "over20", emoji: "🍿", label: "20분 이상" },
@@ -326,6 +326,9 @@ function scoreItem(item, answers) {
   }
   if (answers.length && item.length_bucket === answers.length) {
     score += 1;
+  }
+  if (answers.length === "under1" && item.format === "shorts") {
+    score += 2;
   }
   if (answers.accent && answers.accent !== "any" && item.accent === answers.accent) {
     score += 1;

@@ -11,13 +11,13 @@
     ],
     "thumbnail": "https://placehold.co/320x180/2E5D50/FFFFFF?text=VOA%20Learning%20English",
     "link": "https://www.youtube.com/@voalearningenglish",
-    "reason": "제한된 어휘와 느리고 명료한 미국식 발음으로 뉴스를 전달한다.",
+    "reason": "영어 발음이 어렵다면? 일상적 단어를 또렷한 미국식 발음으로 알려드려요.",
     "accent": "us",
     "focus": [
       "vocab",
       "listening"
     ],
-    "length_bucket": "1to5"
+    "length_bucket": "2to5"
   },
   {
     "id": "yt-bbc-learning-english",
@@ -32,13 +32,13 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/qfQ61oYIbxY/hqdefault.jpg",
     "link": "https://www.youtube.com/@bbclearningenglish",
-    "reason": "초급 영상은 짧은 문장과 또렷한 영국식 발음, 반복 설명을 사용한다.",
+    "reason": "영국 영어의 정석! 짧은 문장과 또렷한 발음으로 차근차근 익혀요.",
     "accent": "uk",
     "focus": [
       "grammar",
       "listening"
     ],
-    "length_bucket": "1to5"
+    "length_bucket": "2to5"
   },
   {
     "id": "yt-british-council-learnenglish",
@@ -53,7 +53,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/ymm_mi6G3EM/hqdefault.jpg",
     "link": "https://www.youtube.com/@BritishCouncilEnglish",
-    "reason": "CEFR 단계별 상황극과 설명을 통해 기본 표현을 문맥과 함께 익힐 수 있다.",
+    "reason": "영어도 상황극으로 배우면 더 생생하잖아요. 일상에서 자주 쓰는 표현을 익혀요.",
     "accent": "uk",
     "focus": [
       "grammar",
@@ -73,12 +73,12 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/Q_EwuVHDb5U/hqdefault.jpg",
     "link": "https://www.youtube.com/@EnglishSingsing",
-    "reason": "그림과 짧은 대화, 반복 발화가 의미 이해를 돕는다.",
+    "reason": "역시 귀여운 게 최고...! 그림과 짧은 대화로 공부해 봐요.",
     "accent": "us",
     "focus": [
       "vocab"
     ],
-    "length_bucket": "1to5"
+    "length_bucket": "2to5"
   },
   {
     "id": "yt-englishclass101-com",
@@ -93,7 +93,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/uT5pKMolCwY/hqdefault.jpg",
     "link": "https://www.youtube.com/@EnglishClass101",
-    "reason": "인사·쇼핑·길 찾기 같은 생존 영어를 작은 단위로 설명한다.",
+    "reason": "여행 가서 한마디도 못 할 순 없죠? 인사와 쇼핑, 길 찾기처럼 바로 쓰는 영어를 알려드려요.",
     "accent": "us",
     "focus": [
       "vocab"
@@ -112,7 +112,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/lbFodDCbc7g/hqdefault.jpg",
     "link": "https://www.youtube.com/@Englishwithjennifer",
-    "reason": "차분한 미국식 발음으로 문법과 회화 예문을 단계적으로 가르친다.",
+    "reason": "문법도, 단어도 차분히 보면 어렵지 않아요. 또렷한 미국식 발음으로 회화 표현까지 함께 배워요.",
     "accent": "us",
     "focus": [
       "grammar"
@@ -132,7 +132,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/jul2urONzOQ/hqdefault.jpg",
     "link": "https://www.youtube.com/@Oxfordonlineenglish1",
-    "reason": "레벨별 수업과 화면 예문이 많고 발화가 비교적 느리고 선명하다.",
+    "reason": "칠판만 보면 졸린 분도 괜찮아요. 화면 속 예문과 주제별 수업으로 편안하게 배워요.",
     "accent": "uk",
     "focus": [
       "grammar"
@@ -152,7 +152,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/vA-uEPEHU_M/hqdefault.jpg",
     "link": "https://www.youtube.com/@LearnEnglishwithBobtheCanadian",
-    "reason": "실제 장소와 물건을 보여주며 쉬운 캐나다 영어로 설명한다.",
+    "reason": "캐나다 영어 궁금하세요? 교과서 말고 진짜 캐나다 영어를 배워보세요.",
     "accent": "us",
     "focus": [
       "vocab"
@@ -171,7 +171,7 @@
     ],
     "thumbnail": "https://placehold.co/320x180/2E5D50/FFFFFF?text=engVid",
     "link": "https://www.youtube.com/@EngVid",
-    "reason": "캐나다 기반 강사들의 판서형 수업으로 기초 문법과 표현을 익힐 수 있다.",
+    "reason": "각 잡힌 수업이 듣고 싶다면 여기예요! 선생님의 설명을 따라가며 문법과 표현을 익혀요.",
     "accent": "us",
     "focus": [
       "grammar"
@@ -190,10 +190,11 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/topBLaz4zgk/hqdefault.jpg",
     "link": "https://www.youtube.com/@SpeakEnglishWithVanessa",
-    "reason": "명료한 미국식 발음으로 자주 쓰는 회화 표현을 여러 번 반복한다.",
+    "reason": "내 듣기 레벨은 어느 정도일까? 여기에서 확인해보세요.",
     "accent": "us",
     "focus": [
-      "vocab"
+      "vocab",
+      "listening"
     ],
     "length_bucket": "10to20"
   },
@@ -210,7 +211,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/q_5WJbQZeoI/hqdefault.jpg",
     "link": "https://www.youtube.com/@EasyEnglishVideos",
-    "reason": "영국 거리 인터뷰를 통해 자연스러운 속도와 다양한 화자를 접할 수 있다.",
+    "reason": "영국이 궁금하다면 여기예요! 영국 사람들의 인터뷰를 보며 자연스러운 대화를 들어보세요.",
     "accent": "uk",
     "focus": [
       "listening"
@@ -229,7 +230,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/jm0q7O8-Ruo/hqdefault.jpg",
     "link": "https://www.youtube.com/@rachelsenglish",
-    "reason": "미국 영어의 연음·축약·강세를 실제 발화 중심으로 분석한다.",
+    "reason": "분명 아는 단어인데 왜 안 들릴까요? 원어민이 가르쳐주는 강세와 발음은 여기서 들어보세요.",
     "accent": "us",
     "focus": [
       "listening"
@@ -249,7 +250,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/66aG5P0kQpU/hqdefault.jpg",
     "link": "https://www.youtube.com/@EnglishwithLucy",
-    "reason": "자연스러운 영국식 속도이지만 설명 구조와 화면 예문이 명확하다.",
+    "reason": "영국식 발음이 탐난다면? 화면 속 예문과 알기 쉬운 설명으로 차근차근 배워요.",
     "accent": "uk",
     "focus": [
       "grammar",
@@ -270,7 +271,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/tw25CM1MXlU/hqdefault.jpg",
     "link": "https://www.youtube.com/channel/UCrRiVfHqBIIvSgKmgnSY66g",
-    "reason": "호주식 발음으로 일상 및 직장 표현과 어휘의 뉘앙스를 설명한다.",
+    "reason": "호주 느낌! 호주 바이브! 끌리지 않나요? 스몰톡부터 일상과 직장에서 쓰는 표현의 미묘한 차이까지 다 알려드려요.",
     "accent": "au",
     "focus": [
       "vocab"
@@ -290,7 +291,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/X62W2fE2uOE/hqdefault.jpg",
     "link": "https://www.youtube.com/@gonaturalenglishlessons",
-    "reason": "교과서 표현보다 실제 미국인이 사용하는 관용구와 말하기 방식에 집중한다.",
+    "reason": "교과서 밖 영어가 궁금했나요? 미국 현지에서 자주 쓰는 표현부터 문화까지 살펴보세요.",
     "accent": "us",
     "focus": [
       "vocab"
@@ -310,7 +311,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/8TmF7uHu_Ls/hqdefault.jpg",
     "link": "https://www.youtube.com/@RealLifeEnglish1",
-    "reason": "여러 영어권 화자의 대화를 통해 원어민 속도와 다양한 억양을 훈련한다.",
+    "reason": "늘 듯 말 듯한 내 영어… 확실히 늘리고 싶다면? 여기에서 원어민들의 노하우를 확인해 봐요.",
     "accent": "other",
     "focus": [
       "listening"
@@ -329,7 +330,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/BJ2VqM1V_hQ/hqdefault.jpg",
     "link": "https://www.youtube.com/@LearnEnglishWithTVSeries",
-    "reason": "다양한 영어권 드라마·영화의 속어와 발음을 자막·해설로 분해한다.",
+    "reason": "영화, 드라마 좋아하시는 분? 정주행도 하고 영어도 챙겨가세요.",
     "accent": "other",
     "focus": [
       "vocab",
@@ -349,7 +350,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/e7n2K5gR-rk/hqdefault.jpg",
     "link": "https://www.youtube.com/@BusinessEnglishPod",
-    "reason": "회의·협상·발표 등 반복되는 업무 상황의 핵심 표현을 체계적으로 다룬다.",
+    "reason": "자연스럽게 화제 돌리기? 자연스럽게 캐묻기? 영어로도 당연히 가능해요. 이 채널에서 확인해보세요!",
     "accent": "us",
     "focus": [
       "vocab"
@@ -369,7 +370,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/MiebCHmiszs/hqdefault.jpg",
     "link": "https://www.youtube.com/@linguamarina",
-    "reason": "미국 생활과 업무 환경에서 사용하는 실용적인 표현을 자연스러운 속도로 설명한다.",
+    "reason": "섀도잉, 해 보셨나요? 섀도잉으로 바로 쓰는 영어 표현을 배워요.",
     "accent": "us",
     "focus": [
       "vocab",
@@ -389,7 +390,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/agUuOtgHdGY/hqdefault.jpg",
     "link": "https://www.youtube.com/@ETJEnglish",
-    "reason": "현대 영국식 발음과 억양, 자연스러운 구어 표현을 집중적으로 다룬다.",
+    "reason": "영국 발음, 0부터 차근차근 알려드립니다! 영국에서 쓰는 영어 표현은 덤이에요.",
     "accent": "uk",
     "focus": [
       "listening"
@@ -408,7 +409,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/D6_qpaSxAQc/hqdefault.jpg",
     "link": "https://www.youtube.com/@EnglishSpeakingSuccess",
-    "reason": "영국 영어 기반의 IELTS 주제로 긴 답변과 중상급 어휘를 연습할 수 있다.",
+    "reason": "영어 팟캐스트, 듣고는 싶은데 시작하긴 부담스럽다면? 20분 이내 짧은 에피소드로 시작해봐요.",
     "accent": "uk",
     "focus": [
       "vocab",
@@ -429,7 +430,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/WJwT_EHGE_c/hqdefault.jpg",
     "link": "https://www.youtube.com/@EnglishAddict",
-    "reason": "즉흥적인 영국 영어와 유머를 통해 긴 발화를 듣는 힘을 기를 수 있다.",
+    "reason": "5분도 길다. 짧은 영상으로 영국식 영어 배워가세요!",
     "accent": "uk",
     "focus": [
       "listening",
@@ -450,7 +451,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/k1uduN-i8R0/hqdefault.jpg",
     "link": "https://www.youtube.com/@Canguroenglish",
-    "reason": "영국식 영어로 학습법과 표현의 미묘한 차이를 긴 설명 형태로 전달한다.",
+    "reason": "기존 영어 교육을 거침없이 까서 더 재밌는 채널. 단순한 점수 너머의 영어를 만나보세요.",
     "accent": "uk",
     "focus": [
       "vocab"
@@ -469,19 +470,22 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/xjcsrU-ZmgY/hqdefault.jpg",
     "link": "https://www.youtube.com/@TEDEd",
-    "reason": "여러 국가의 내레이션을 애니메이션과 영어 자막이 보조해 준다.",
+    "reason": "디즈니 동화의 어두운 진실부터 비행기 탑승이 느린 이유까지! 궁금했지만 누구에게 물어보기는 애매했던 이야기를 귀여운 애니메이션으로 알려드려요. 10분이면 충분해요.",
     "accent": "other",
     "focus": [
       "listening"
     ],
-    "length_bucket": "1to5"
+    "length_bucket": "2to5"
   },
   {
     "id": "yt-ted",
     "title": "TED",
     "type": "youtube",
     "format": "channel",
-    "level": "advanced",
+    "level": [
+      "advanced",
+      "intermediate"
+    ],
     "country": "기타",
     "tags": [
       "시사·뉴스",
@@ -489,7 +493,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/9LTGzEzDat0/hqdefault.jpg",
     "link": "https://www.youtube.com/@TED",
-    "reason": "다양한 국적의 화자와 전문어·수사적 표현·발표체 영어가 등장한다.",
+    "reason": "명불허전 TED! 아직 안 보셨나요? 이야기로 사람을 사로잡는 영어는 TED로 배워보세요.",
     "accent": "other",
     "focus": [
       "advanced"
@@ -508,7 +512,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/hrbLPYXgjQY/hqdefault.jpg",
     "link": "https://www.youtube.com/@CNN10",
-    "reason": "빠른 뉴스 전달과 정치·경제·사회 관련 압축 어휘가 사용된다.",
+    "reason": "CNN이 말아주는 하루 10분 고급 영어! 시사 지식은 보너스예요. 조금 빠른 뉴스에도 도전해보세요.",
     "accent": "us",
     "focus": [
       "advanced",
@@ -528,7 +532,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/LuKwFajn37U/hqdefault_live.jpg",
     "link": "https://www.youtube.com/@dwnews",
-    "reason": "국제 뉴스와 인터뷰에서 유럽을 비롯한 다양한 영어 억양을 접할 수 있다.",
+    "reason": "독립 언론이 전해드리는 뉴스로 지구 한 바퀴 돌아볼까요?",
     "accent": "other",
     "focus": [
       "listening",
@@ -549,7 +553,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/WHqxBlFuIXA/hqdefault.jpg",
     "link": "https://www.youtube.com/@wsj",
-    "reason": "미국 경제·금융·산업 관련 전문어와 밀도 높은 분석 문장이 많다.",
+    "reason": "월스트리트저널 공식 채널! 영어와 경제 공부를 한 번에 끝내드려요. 미국 금융과 산업 뉴스를 보며 관련 표현을 익혀요.",
     "accent": "us",
     "focus": [
       "advanced"
@@ -569,7 +573,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/QB5BNdBFujE/hqdefault_live.jpg",
     "link": "https://www.youtube.com/@markets",
-    "reason": "빠른 인터뷰와 시장·기업·경제 전문용어가 집중적으로 등장한다.",
+    "reason": "하루 5분 영어 챌린지 어때요? 시장만큼이나 영어도 빠르게 오가는 채널이에요.",
     "accent": "us",
     "focus": [
       "advanced",
@@ -590,7 +594,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/4W_P_Yxhnt0/hqdefault.jpg",
     "link": "https://www.youtube.com/@NatGeo",
-    "reason": "미국식 내레이션을 중심으로 과학·환경·문화 전문어를 다룬다.",
+    "reason": "내셔널 지오그래픽이 지구 어디든 모셔다 드립니다. 과학, 자연 덕후라면 여기예요 여기!",
     "accent": "us",
     "focus": [
       "advanced",
@@ -611,7 +615,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/-zU4Mj9dpUI/hqdefault.jpg",
     "link": "https://www.youtube.com/@heytablo/shorts",
-    "reason": "북미식 영어로 진행되는 팟캐스트이며 말이 빠르고 유머·비유·즉흥 표현이 많다.",
+    "reason": "주인장 원픽! 에픽하이 타블로가 대유잼 인간이라는 거, 알고 계셨나요? 빠른 북미식 영어와 재치 있는 표현을 들어요.",
     "accent": "us",
     "focus": [
       "advanced",
@@ -632,7 +636,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/_Des8c6xPoE/hqdefault.jpg",
     "link": "https://www.youtube.com/@youjaemee/shorts",
-    "reason": "여러 원본 영상에 한영 자막과 학습 포인트를 더해 자연스러운 표현을 설명한다.",
+    "reason": "제일 잘 나가는 스타 인터뷰로 살아있는 영어를 배워봐요. 한영 자막과 핵심 설명으로 친절하게 도와드릴게요.",
     "accent": "other",
     "focus": [
       "vocab",
@@ -652,7 +656,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/cgQK_ylwiEY/hqdefault.jpg",
     "link": "https://www.youtube.com/@soritunenglish/shorts",
-    "reason": "한국어 설명과 반복 훈련으로 영어의 소리·연음·리듬을 기초부터 따라 할 수 있다.",
+    "reason": "1분도 길죠? 쇼츠로 배우는 영어! 원어민이 쓰는 관용어, 7세 수준부터 차근차근 알려드립니다.",
     "accent": "other",
     "focus": [
       "listening"
@@ -672,13 +676,13 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/31fQqB6K0Z0/hqdefault.jpg",
     "link": "https://www.youtube.com/@%EB%A6%B4%EC%8A%A4%EC%95%A0%EA%B8%B0",
-    "reason": "여러 국가의 원어민 영상에 한영 자막과 표현 해설을 덧붙인다.",
+    "reason": "짧게 보고 알차게 챙겨요. 여러 나라의 영어 영상을 한영 자막과 설명으로 익혀요.",
     "accent": "other",
     "focus": [
       "vocab",
       "casual"
     ],
-    "length_bucket": "1to5"
+    "length_bucket": "2to5"
   },
   {
     "id": "yt-hello-jennie",
@@ -693,7 +697,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/tEL4jaivrtc/hqdefault.jpg",
     "link": "https://www.youtube.com/@hellojennie_english/shorts",
-    "reason": "미국 영어 중심의 실제 회화 표현과 문법을 한국인 학습자의 관점에서 설명한다.",
+    "reason": "한국인이 궁금한 지점을 콕 짚어드려요. 익숙한 설명으로 미국 영어 회화와 문법을 배워요.",
     "accent": "us",
     "focus": [
       "grammar",
@@ -714,7 +718,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/qtrAKXQ1xxA/hqdefault.jpg",
     "link": "https://www.youtube.com/@Repeat_Again/shorts",
-    "reason": "여러 영어 영상 클립을 연상법과 반복 방식으로 재구성해 쉐도잉에 활용할 수 있다.",
+    "reason": "한 번 더 보면 한마디 더 남아요. 짧은 영상을 반복해서 보고 따라 말해요.",
     "accent": "other",
     "focus": [
       "listening",
@@ -734,7 +738,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/BTpekjpfGEw/hqdefault.jpg",
     "link": "https://www.youtube.com/@heesstory/shorts",
-    "reason": "영어 전용 채널은 아니므로 영어 화자·인터뷰가 포함된 영상만 선별해야 하며 주 학습 자료보다는 보조 자료에 가깝다.",
+    "reason": "관심 있는 이야기가 영어로 나오면 귀가 쫑긋하죠. 영어 인터뷰를 골라 듣기 연습에 활용해요.",
     "accent": "other",
     "focus": [
       "casual"
@@ -754,7 +758,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/CZCAZv1RO0E/hqdefault.jpg",
     "link": "https://www.youtube.com/@befm/shorts",
-    "reason": "여러 국적의 진행자·출연자가 참여하는 방송과 인터뷰로 다양한 억양을 들을 수 있다.",
+    "reason": "부산에서 세계의 영어를 만나 보세요. 여러 나라의 진행자와 출연자가 들려주는 억양을 들어요.",
     "accent": "other",
     "focus": [
       "listening"
@@ -773,7 +777,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/aLtIP3uOnAM/hqdefault.jpg",
     "link": "https://www.youtube.com/@%EC%BD%94%EB%AF%B9%ED%95%9C%EC%98%81%EC%96%B4/shorts",
-    "reason": "다양한 코미디 영어를 자막과 함께 짧게 반복해 일상 반응 표현을 익힐 수 있다.",
+    "reason": "웃다 보면 영어 반응도 따라 나와요. 짧은 코미디를 자막과 함께 반복해서 봐요.",
     "accent": "other",
     "focus": [
       "casual",
@@ -793,7 +797,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/qHbD3_dWPVo/hqdefault.jpg",
     "link": "https://www.youtube.com/@%EB%A7%B7%EB%9D%BC%EC%9D%B4%ED%94%84%EB%8D%95%EC%A7%88%EC%9A%A9%EC%B1%84%EB%84%90/shorts",
-    "reason": "미국 스탠드업 코미디 특유의 빠른 속도, 성인 속어, 말장난이 많다.",
+    "reason": "농담까지 알아들으면 진짜 더 웃기죠. 미국 스탠드업으로 빠른 대화와 말장난을 접해요.",
     "accent": "us",
     "focus": [
       "advanced",
@@ -814,7 +818,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/n7etF48qY4Q/hqdefault.jpg",
     "link": "https://www.youtube.com/@sowhatspeak/shorts",
-    "reason": "영국 인터뷰·예능 클립을 통해 영국식 발음과 자연스러운 질문·반응을 익힐 수 있다.",
+    "reason": "영국식 리액션, 은근히 매력 있어요. 인터뷰와 예능을 보며 자연스러운 질문과 반응을 익혀요.",
     "accent": "uk",
     "focus": [
       "listening",
@@ -834,7 +838,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/eRYm2gTRJN0/hqdefault.jpg",
     "link": "https://www.youtube.com/@%EC%9D%B8%ED%85%94%EB%A6%AC%EC%A0%84%EC%8A%A4/shorts",
-    "reason": "여러 화자의 동기부여·자기계발 클립으로 추상어휘와 압축된 메시지가 많다.",
+    "reason": "마음도 채우고 영어 표현도 챙겨요. 동기부여 영상을 보며 생각을 전하는 말을 접해요.",
     "accent": "other",
     "focus": [
       "advanced",
@@ -854,7 +858,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/T1k57LOb1wA/hqdefault.jpg",
     "link": "https://www.youtube.com/@genzmemenglish/shorts",
-    "reason": "북미 Z세대 영상의 최신 속어·밈·축약 표현과 빠른 발화를 다룬다.",
+    "reason": "요즘 영어, 사전만 봐서는 놓칠 수 있죠. 북미 젊은 세대의 유행어와 줄임말을 익혀요.",
     "accent": "us",
     "focus": [
       "casual",
@@ -875,7 +879,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/PL-icu9ZYoc/hqdefault.jpg",
     "link": "https://www.youtube.com/@TalkLikeaStar/shorts",
-    "reason": "여러 유명인의 인터뷰와 대화를 통해 자연스러운 반응 표현을 익힐 수 있다.",
+    "reason": "최애의 말투에는 귀가 더 잘 열리니까요. 유명인의 대화를 보며 자연스러운 반응을 익혀요.",
     "accent": "other",
     "focus": [
       "vocab",
@@ -895,7 +899,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/Gu7t_AEALxs/hqdefault.jpg",
     "link": "https://www.youtube.com/@%ED%95%A0%EB%A6%AC%EC%9A%B0%EB%93%9C%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8",
-    "reason": "미국 영화·할리우드 콘텐츠의 실제 대사를 장면 문맥과 함께 접할 수 있다.",
+    "reason": "명장면은 영어로 봐도 명장면이죠. 미국 영화 속 실제 대사를 장면과 함께 익혀요.",
     "accent": "us",
     "focus": [
       "casual",
@@ -915,7 +919,7 @@
     ],
     "thumbnail": "https://i.ytimg.com/vi/2jl9njeYito/hqdefault.jpg",
     "link": "https://www.youtube.com/@%EA%B9%94%EA%B9%94%ED%86%A1-n8w",
-    "reason": "코미디·예능식 대화의 빠른 타이밍과 속어·빈정거림·말장난을 이해해야 한다.",
+    "reason": "웃음 타이밍까지 알아들어 볼까요? 코미디와 예능으로 빠른 대화와 유머 표현을 익혀요.",
     "accent": "other",
     "focus": [
       "casual",
