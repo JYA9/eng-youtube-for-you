@@ -60,7 +60,7 @@ const LEVEL_LABEL = { beginner: "초급", intermediate: "중급", advanced: "고
 const FORMAT_LABEL = { channel: "채널", shorts: "쇼츠" };
 
 const LOADING_MESSAGES = [
-  "J님 완전 맞춤형 영상을 찾고 있어요 🔍",
+  "완전 맞춤형 영상을 찾고 있어요 🔍",
   "레벨에 딱 맞는 채널만 골라내는 중이에요 🎯",
   "취향 저격 영상, 거의 다 찾았어요 ⏳",
 ];
@@ -245,8 +245,8 @@ function render() {
 
   if (state.step === "topic") {
     const count = state.answers.topics.length;
-    heroTitle.textContent = "어떤 주제가";
-    heroSub.textContent = `제일 끌려요? ${TOPIC_MIN}개 이상 ${TOPIC_MAX}개 이하로 골라주세요. (${count}/${TOPIC_MAX})`;
+    heroTitle.textContent = "어떤 주제가 제일 끌리나요?";
+    heroSub.textContent = `${TOPIC_MIN}개 이상 ${TOPIC_MAX}개 이하로 골라주세요. (${count}/${TOPIC_MAX})`;
     app.innerHTML = `
       <div class="step-panel">
         ${renderBackButton(true)}
@@ -391,7 +391,7 @@ function cardTemplate(item) {
 function renderResults() {
   const results = getRecommendations();
   heroTitle.textContent =
-    state.answers.concern === "casual" ? "짜잔, 이거 어때요? 🎉" : "J님 취향 저격 추천이에요 🎯";
+    state.answers.concern === "casual" ? "짜잔, 이거 어때요? 🎉" : "완전 취향 저격 추천이에요 🎯";
   heroSub.textContent =
     results.length > 0
       ? "마음에 드는 채널 클릭해서 바로 보러 가세요."
