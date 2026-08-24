@@ -21,9 +21,9 @@ const LEVELS = [
 const CONCERNS = [
   { value: "grammar", emoji: "😞", label: "문법... 말하면서 어떻게 지키는 거예요?" },
   { value: "vocab", emoji: "🤔", label: "단어가 생각이 안 나요" },
-  { value: "casual", emoji: "😜", label: "모르겠고 그냥 웃긴 거나 보고 싶어요" },
   { value: "advanced", emoji: "🤓", label: "고급진 영어를 배우고 싶어요" },
   { value: "listening", emoji: "👂", label: "리스닝이 안 돼요" },
+  { value: "casual", emoji: "😜", label: "모르겠고 그냥 웃긴 거나 보고 싶어요" },
 ];
 
 const LENGTHS = [
