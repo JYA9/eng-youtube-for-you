@@ -303,6 +303,7 @@ function render() {
     renderResults();
     return;
   }
+
 }
 
 function bindBack(current) {
@@ -403,6 +404,12 @@ function renderResults() {
         <button class="btn-ghost" id="reset-btn">처음부터 다시</button>
       </div>
       <div class="card-grid">${results.map(cardTemplate).join("")}</div>
+      <section class="survey-invite">
+        <p class="eyebrow">BETA FEEDBACK</p>
+        <h2>추천은 어떠셨나요?</h2>
+        <p>3분이면 충분해요. 남겨주신 의견으로 더 잘 맞는 추천을 만들게요.</p>
+        <a class="btn-primary survey-link" href="https://forms.gle/w7awXzgvMEviUvau7" target="_blank" rel="noopener noreferrer">만족도 조사 참여하기 →</a>
+      </section>
     </div>
   `;
 

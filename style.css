@@ -371,3 +371,20 @@ body {
   font-family: 'IBM Plex Mono', monospace;
   text-align: center;
 }
+
+.survey-invite {
+  margin-top: 48px;
+  padding: 30px;
+  border-radius: 18px;
+  background: var(--accent-soft);
+  border: 1px solid var(--line);
+  text-align: center;
+}
+.survey-invite h2 { font-family: 'Gowun Batang', serif; margin: 4px 0 8px; }
+.survey-invite p:not(.eyebrow) { color: var(--muted); margin: 0; }
+.survey-invite .btn-primary { max-width: 360px; }
+.survey-link { display: block; text-decoration: none; margin-left: auto; margin-right: auto; }
+
+@media (max-width: 560px) {
+  .page { padding-top: 32px; }
+}
