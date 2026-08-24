@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>레벨픽 — 내 수준에 맞는 영어 콘텐츠</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+      <p class="eyebrow">LEVELPICK</p>
+      <h1>내 영어 레벨에 맞는<br>유튜브 채널 & 쇼츠 찾기</h1>
+      <p class="hero-sub">레벨과 관심사를 고르면, 지금 바로 볼 만한 유튜브 채널과 쇼츠를 추천해드려요. (드라마·영화는 곧 추가됩니다)</p>
+    </header>
+
+    <section class="picker" id="picker">
+      <div class="picker-group">
+        <h2 class="picker-title">1. 영어 레벨</h2>
+        <div class="chip-row" id="level-row" role="radiogroup" aria-label="영어 레벨 선택">
+          <button class="chip" data-level="beginner" role="radio" aria-checked="false">초급</button>
+          <button class="chip" data-level="intermediate" role="radio" aria-checked="false">중급</button>
+          <button class="chip" data-level="advanced" role="radio" aria-checked="false">고급</button>
+        </div>
+      </div>
+
+      <div class="picker-group">
+        <h2 class="picker-title">2. 관심사 <span class="picker-hint">(최대 2개)</span></h2>
+        <div class="chip-row" id="tag-row" aria-label="관심사 선택"></div>
+      </div>
+
+      <button class="btn-primary" id="recommend-btn" disabled>추천받기</button>
+    </section>
+
+    <section class="results" id="results" hidden>
+      <div class="results-head">
+        <h2 id="results-title">추천 콘텐츠</h2>
+        <button class="btn-ghost" id="reset-btn">다시 고르기</button>
+      </div>
+      <div class="card-grid" id="card-grid"></div>
+      <p class="empty-state" id="empty-state" hidden>조건에 맞는 콘텐츠가 아직 없어요. 다른 조합으로 골라보세요.</p>
+    </section>
+
+    <footer class="site-footer">레벨픽 프로토타입 · 콘텐츠는 계속 업데이트됩니다</footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
