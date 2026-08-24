@@ -422,6 +422,26 @@ function renderResults() {
 
 /* ---------- 초기화 ---------- */
 
+function initIntro() {
+  const intro = document.getElementById("intro-screen");
+  const skip = document.getElementById("intro-skip");
+  if (!intro || !skip) return;
+
+  document.body.classList.add("intro-open");
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  let closeTimer;
+
+  const closeIntro = () => {
+    window.clearTimeout(closeTimer);
+    intro.classList.add("is-closing");
+    document.body.classList.remove("intro-open");
+    window.setTimeout(() => intro.remove(), reduceMotion ? 0 : 450);
+  };
+
+  skip.addEventListener("click", closeIntro);
+  closeTimer = window.setTimeout(closeIntro, reduceMotion ? 900 : 3900);
+}
+
 async function loadContent() {
   try {
     const res = await fetch("content.json");
@@ -433,4 +453,5 @@ async function loadContent() {
   render();
 }
 
+initIntro();
 loadContent();

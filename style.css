@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
 
 :root {
   --bg: #F1F4F1;
@@ -38,8 +38,128 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--ink);
-  font-family: 'IBM Plex Sans KR', 'Noto Sans KR', -apple-system, sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
   line-height: 1.6;
+}
+
+body.intro-open { overflow: hidden; }
+
+.intro-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  color: #F7FAF7;
+  background: radial-gradient(circle at 50% 48%, #18332D 0 20%, #2E5D50 55%, #EAF1EB 125%);
+  transition: opacity 0.45s ease, visibility 0.45s ease;
+}
+
+.intro-screen::before {
+  content: "";
+  position: absolute;
+  inset: -25%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.06), transparent 52%);
+  animation: intro-breathe 3.9s ease-in-out infinite;
+}
+
+.intro-screen.is-closing {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.intro-wordmark {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  color: rgba(247, 250, 247, 0.72);
+}
+
+.intro-copy {
+  position: relative;
+  width: min(620px, calc(100% - 48px));
+  min-height: 150px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.intro-line {
+  position: absolute;
+  margin: 0;
+  font-size: clamp(25px, 5vw, 39px);
+  font-weight: 700;
+  line-height: 1.45;
+  letter-spacing: -0.035em;
+  text-wrap: balance;
+  opacity: 0;
+  transform: translateY(12px);
+  filter: blur(5px);
+}
+
+.intro-line-first { animation: intro-first 3.9s ease both; }
+.intro-line-second { animation: intro-second 3.9s ease both; }
+
+.intro-skip {
+  position: absolute;
+  right: 22px;
+  bottom: 20px;
+  border: 0;
+  background: transparent;
+  color: rgba(247, 250, 247, 0.72);
+  font: 500 12px/1.2 inherit;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.intro-skip:hover { color: #FFFFFF; }
+
+.intro-progress {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.intro-progress::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: rgba(255, 255, 255, 0.62);
+  animation: intro-progress 3.9s linear both;
+}
+
+@keyframes intro-first {
+  0%, 5% { opacity: 0; transform: translateY(12px); filter: blur(5px); }
+  18%, 42% { opacity: 1; transform: translateY(0); filter: blur(0); }
+  52%, 100% { opacity: 0; transform: translateY(-9px); filter: blur(3px); }
+}
+
+@keyframes intro-second {
+  0%, 47% { opacity: 0; transform: translateY(12px); filter: blur(5px); }
+  62%, 92% { opacity: 1; transform: translateY(0); filter: blur(0); }
+  100% { opacity: 0; transform: translateY(-5px); filter: blur(2px); }
+}
+
+@keyframes intro-progress {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+@keyframes intro-breathe {
+  50% { transform: scale(0.93); opacity: 0.45; }
 }
 
 .page {
@@ -51,7 +171,7 @@ body {
 .hero { margin-bottom: 40px; }
 
 .eyebrow {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: inherit;
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.14em;
@@ -60,7 +180,8 @@ body {
 }
 
 .hero h1 {
-  font-family: 'Gowun Batang', serif;
+  font-family: inherit;
+  font-weight: 700;
   font-size: clamp(26px, 5vw, 36px);
   line-height: 1.3;
   margin: 0 0 12px;
@@ -261,7 +382,7 @@ body {
 }
 
 .results-head h2 {
-  font-family: 'Gowun Batang', serif;
+  font-family: inherit;
   font-size: 20px;
   margin: 0;
 }
@@ -317,7 +438,7 @@ body {
 }
 
 .badge {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: inherit;
   font-size: 11px;
   font-weight: 600;
   letter-spacing: 0.03em;
@@ -368,7 +489,7 @@ body {
   border-top: 1px solid var(--line);
   font-size: 12.5px;
   color: var(--muted);
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: inherit;
   text-align: center;
 }
 
@@ -380,11 +501,21 @@ body {
   border: 1px solid var(--line);
   text-align: center;
 }
-.survey-invite h2 { font-family: 'Gowun Batang', serif; margin: 4px 0 8px; }
+.survey-invite h2 { font-family: inherit; margin: 4px 0 8px; }
 .survey-invite p:not(.eyebrow) { color: var(--muted); margin: 0; }
 .survey-invite .btn-primary { max-width: 360px; }
 .survey-link { display: block; text-decoration: none; margin-left: auto; margin-right: auto; }
 
 @media (max-width: 560px) {
   .page { padding-top: 32px; }
+  .intro-copy { width: calc(100% - 44px); }
+  .intro-line { font-size: 27px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .intro-screen::before,
+  .intro-line,
+  .intro-progress::after { animation: none; }
+  .intro-line-first { display: none; }
+  .intro-line-second { opacity: 1; transform: none; filter: none; }
 }
