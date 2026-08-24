@@ -435,6 +435,8 @@ body.intro-open { overflow: hidden; }
   display: flex;
   gap: 6px;
   flex-wrap: wrap;
+  min-height: 54px;
+  align-content: flex-start;
 }
 
 .badge {
