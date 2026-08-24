@@ -65,6 +65,28 @@ const LOADING_MESSAGES = [
   "취향 저격 영상, 거의 다 찾았어요 ⏳",
 ];
 
+/* ---------- Clarity 이벤트 추적 ---------- */
+
+const trackedClarityEvents = new Set();
+
+function trackClarityEvent(eventName) {
+  if (
+    trackedClarityEvents.has(eventName) ||
+    typeof window.clarity !== "function"
+  ) {
+    return;
+  }
+
+  window.clarity("event", eventName);
+  trackedClarityEvents.add(eventName);
+}
+
+function setClarityTag(key, value) {
+  if (typeof window.clarity !== "function") return;
+
+  window.clarity("set", key, value);
+}
+
 /* ---------- 상태 ---------- */
 
 const state = {
@@ -164,6 +186,10 @@ function render() {
     app.querySelectorAll("[data-level]").forEach((btn) => {
       btn.addEventListener("click", () => {
         state.answers.level = btn.dataset.level;
+
+        setClarityTag("selected_level", state.answers.level);
+        trackClarityEvent("recommendation_started");
+
         state.step = nextStep("level");
         render();
       });
@@ -187,6 +213,10 @@ function render() {
     app.querySelectorAll("[data-concern]").forEach((btn) => {
       btn.addEventListener("click", () => {
         state.answers.concern = btn.dataset.concern;
+
+        setClarityTag("selected_concern", state.answers.concern);
+        trackClarityEvent("concern_completed");
+
         state.step = nextStep("concern");
         render();
       });
@@ -211,6 +241,10 @@ function render() {
     app.querySelectorAll("[data-length]").forEach((btn) => {
       btn.addEventListener("click", () => {
         state.answers.length = btn.dataset.length;
+
+        setClarityTag("selected_length", state.answers.length);
+        trackClarityEvent("length_completed");
+
         state.step = nextStep("length");
         render();
       });
@@ -235,6 +269,10 @@ function render() {
     app.querySelectorAll("[data-accent]").forEach((btn) => {
       btn.addEventListener("click", () => {
         state.answers.accent = btn.dataset.accent;
+
+        setClarityTag("selected_accent", state.answers.accent);
+        trackClarityEvent("accent_completed");
+
         state.step = nextStep("accent");
         render();
       });
@@ -275,6 +313,9 @@ function render() {
     });
     document.getElementById("topic-next-btn").disabled = count < TOPIC_MIN;
     document.getElementById("topic-next-btn").addEventListener("click", () => {
+      setClarityTag("selected_topics", state.answers.topics);
+      trackClarityEvent("topic_completed");
+
       state.step = nextStep("topic");
       render();
     });
@@ -394,6 +435,14 @@ function cardTemplate(item) {
 
 function renderResults() {
   const results = getRecommendations();
+
+  setClarityTag("results_count", String(results.length));
+  trackClarityEvent("results_viewed");
+
+  if (results.length === 0) {
+    trackClarityEvent("no_results");
+  }
+
   heroTitle.textContent =
     state.answers.concern === "casual" ? "짜잔, 이거 어때요? 🎉" : "취향 저격 영상 모음, 도착! 📬";
   heroSub.textContent =
@@ -416,11 +465,32 @@ function renderResults() {
     </div>
   `;
 
-  document.getElementById("reset-btn").addEventListener("click", () => {
-    state.answers = { level: null, concern: null, length: null, accent: null, topics: [] };
-    state.step = "level";
-    render();
+  app.querySelectorAll(".card-link").forEach((link, index) => {
+  link.addEventListener("click", () => {
+    const clickedChannel = results[index];
+
+    if (clickedChannel) {
+      setClarityTag("clicked_channel", clickedChannel.title);
+    }
+
+    trackClarityEvent("channel_clicked");
   });
+});
+
+document.getElementById("reset-btn").addEventListener("click", () => {
+  trackClarityEvent("recommendation_restarted");
+
+  state.answers = {
+      level: null,
+      concern: null,
+      length: null,
+      accent: null,
+      topics: [],
+  };
+
+  state.step = "level";
+  render();
+});
 }
 
 /* ---------- 초기화 ---------- */
@@ -441,7 +511,10 @@ function initIntro() {
     window.setTimeout(() => intro.remove(), reduceMotion ? 0 : 450);
   };
 
-  skip.addEventListener("click", closeIntro);
+skip.addEventListener("click", () => {
+  trackClarityEvent("intro_skipped");
+  closeIntro();
+});
   closeTimer = window.setTimeout(closeIntro, reduceMotion ? 900 : 3900);
 }
 
