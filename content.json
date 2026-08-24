@@ -7,12 +7,17 @@
     "level": "beginner",
     "country": "미국/캐나다",
     "tags": [
-      "시사",
-      "일상회화"
+      "시사·뉴스"
     ],
     "thumbnail": "https://placehold.co/320x180/2E5D50/FFFFFF?text=VOA%20Learning%20English",
     "link": "https://www.youtube.com/@voalearningenglish",
-    "reason": "제한된 어휘와 느리고 명료한 미국식 발음으로 뉴스를 전달한다."
+    "reason": "제한된 어휘와 느리고 명료한 미국식 발음으로 뉴스를 전달한다.",
+    "accent": "us",
+    "focus": [
+      "vocab",
+      "listening"
+    ],
+    "length_bucket": "1to5"
   },
   {
     "id": "yt-bbc-learning-english",
@@ -23,11 +28,17 @@
     "country": "영국",
     "tags": [
       "일상회화",
-      "시사"
+      "시사·뉴스"
     ],
-    "thumbnail": "https://placehold.co/320x180/2E5D50/FFFFFF?text=BBC%20Learning%20English",
+    "thumbnail": "https://i.ytimg.com/vi/qfQ61oYIbxY/hqdefault.jpg",
     "link": "https://www.youtube.com/@bbclearningenglish",
-    "reason": "초급 영상은 짧은 문장과 또렷한 영국식 발음, 반복 설명을 사용한다."
+    "reason": "초급 영상은 짧은 문장과 또렷한 영국식 발음, 반복 설명을 사용한다.",
+    "accent": "uk",
+    "focus": [
+      "grammar",
+      "listening"
+    ],
+    "length_bucket": "1to5"
   },
   {
     "id": "yt-british-council-learnenglish",
@@ -37,12 +48,18 @@
     "level": "beginner",
     "country": "영국",
     "tags": [
-      "일상회화",
-      "여행"
+      "문법·기초",
+      "여행·문화"
     ],
-    "thumbnail": "https://placehold.co/320x180/2E5D50/FFFFFF?text=British%20Council%20LearnE",
+    "thumbnail": "https://i.ytimg.com/vi/ymm_mi6G3EM/hqdefault.jpg",
     "link": "https://www.youtube.com/@BritishCouncilEnglish",
-    "reason": "CEFR 단계별 상황극과 설명을 통해 기본 표현을 문맥과 함께 익힐 수 있다."
+    "reason": "CEFR 단계별 상황극과 설명을 통해 기본 표현을 문맥과 함께 익힐 수 있다.",
+    "accent": "uk",
+    "focus": [
+      "grammar",
+      "vocab"
+    ],
+    "length_bucket": "5to10"
   },
   {
     "id": "yt-english-singsing",
@@ -54,9 +71,14 @@
     "tags": [
       "일상회화"
     ],
-    "thumbnail": "https://placehold.co/320x180/2E5D50/FFFFFF?text=English%20Singsing",
+    "thumbnail": "https://i.ytimg.com/vi/Q_EwuVHDb5U/hqdefault.jpg",
     "link": "https://www.youtube.com/@EnglishSingsing",
-    "reason": "그림과 짧은 대화, 반복 발화가 의미 이해를 돕는다."
+    "reason": "그림과 짧은 대화, 반복 발화가 의미 이해를 돕는다.",
+    "accent": "us",
+    "focus": [
+      "vocab"
+    ],
+    "length_bucket": "1to5"
   },
   {
     "id": "yt-englishclass101-com",
@@ -67,11 +89,16 @@
     "country": "미국/캐나다",
     "tags": [
       "일상회화",
-      "여행"
+      "여행·문화"
     ],
-    "thumbnail": "https://placehold.co/320x180/2E5D50/FFFFFF?text=EnglishClass101.com",
+    "thumbnail": "https://i.ytimg.com/vi/uT5pKMolCwY/hqdefault.jpg",
     "link": "https://www.youtube.com/@EnglishClass101",
-    "reason": "인사·쇼핑·길 찾기 같은 생존 영어를 작은 단위로 설명한다."
+    "reason": "인사·쇼핑·길 찾기 같은 생존 영어를 작은 단위로 설명한다.",
+    "accent": "us",
+    "focus": [
+      "vocab"
+    ],
+    "length_bucket": "5to10"
   },
   {
     "id": "yt-jenniferesl",
@@ -81,11 +108,16 @@
     "level": "beginner",
     "country": "미국/캐나다",
     "tags": [
-      "일상회화"
+      "문법·기초"
     ],
-    "thumbnail": "https://placehold.co/320x180/2E5D50/FFFFFF?text=JenniferESL",
+    "thumbnail": "https://i.ytimg.com/vi/lbFodDCbc7g/hqdefault.jpg",
     "link": "https://www.youtube.com/@Englishwithjennifer",
-    "reason": "차분한 미국식 발음으로 문법과 회화 예문을 단계적으로 가르친다."
+    "reason": "차분한 미국식 발음으로 문법과 회화 예문을 단계적으로 가르친다.",
+    "accent": "us",
+    "focus": [
+      "grammar"
+    ],
+    "length_bucket": "10to20"
   },
   {
     "id": "yt-oxford-online-english",
@@ -95,12 +127,17 @@
     "level": "beginner",
     "country": "영국",
     "tags": [
-      "일상회화",
-      "비즈니스"
+      "문법·기초",
+      "비즈니스·회의"
     ],
-    "thumbnail": "https://placehold.co/320x180/2E5D50/FFFFFF?text=Oxford%20Online%20English",
+    "thumbnail": "https://i.ytimg.com/vi/jul2urONzOQ/hqdefault.jpg",
     "link": "https://www.youtube.com/@Oxfordonlineenglish1",
-    "reason": "레벨별 수업과 화면 예문이 많고 발화가 비교적 느리고 선명하다."
+    "reason": "레벨별 수업과 화면 예문이 많고 발화가 비교적 느리고 선명하다.",
+    "accent": "uk",
+    "focus": [
+      "grammar"
+    ],
+    "length_bucket": "10to20"
   },
   {
     "id": "yt-learn-english-with-bob-the-canadian",
@@ -111,11 +148,16 @@
     "country": "미국/캐나다",
     "tags": [
       "일상회화",
-      "여행"
+      "여행·문화"
     ],
-    "thumbnail": "https://placehold.co/320x180/2E5D50/FFFFFF?text=Learn%20English%20with%20Bob",
+    "thumbnail": "https://i.ytimg.com/vi/vA-uEPEHU_M/hqdefault.jpg",
     "link": "https://www.youtube.com/@LearnEnglishwithBobtheCanadian",
-    "reason": "실제 장소와 물건을 보여주며 쉬운 캐나다 영어로 설명한다."
+    "reason": "실제 장소와 물건을 보여주며 쉬운 캐나다 영어로 설명한다.",
+    "accent": "us",
+    "focus": [
+      "vocab"
+    ],
+    "length_bucket": "5to10"
   },
   {
     "id": "yt-engvid",
@@ -125,12 +167,16 @@
     "level": "beginner",
     "country": "미국/캐나다",
     "tags": [
-      "일상회화",
-      "비즈니스"
+      "문법·기초"
     ],
     "thumbnail": "https://placehold.co/320x180/2E5D50/FFFFFF?text=engVid",
     "link": "https://www.youtube.com/@EngVid",
-    "reason": "캐나다 기반 강사들의 판서형 수업으로 기초 문법과 표현을 익힐 수 있다."
+    "reason": "캐나다 기반 강사들의 판서형 수업으로 기초 문법과 표현을 익힐 수 있다.",
+    "accent": "us",
+    "focus": [
+      "grammar"
+    ],
+    "length_bucket": "10to20"
   },
   {
     "id": "yt-speak-english-with-vanessa",
@@ -142,9 +188,14 @@
     "tags": [
       "일상회화"
     ],
-    "thumbnail": "https://placehold.co/320x180/2E5D50/FFFFFF?text=Speak%20English%20With%20Van",
+    "thumbnail": "https://i.ytimg.com/vi/topBLaz4zgk/hqdefault.jpg",
     "link": "https://www.youtube.com/@SpeakEnglishWithVanessa",
-    "reason": "명료한 미국식 발음으로 자주 쓰는 회화 표현을 여러 번 반복한다."
+    "reason": "명료한 미국식 발음으로 자주 쓰는 회화 표현을 여러 번 반복한다.",
+    "accent": "us",
+    "focus": [
+      "vocab"
+    ],
+    "length_bucket": "10to20"
   },
   {
     "id": "yt-easy-english",
@@ -155,11 +206,16 @@
     "country": "영국",
     "tags": [
       "일상회화",
-      "여행"
+      "발음·억양"
     ],
-    "thumbnail": "https://placehold.co/320x180/B96A17/FFFFFF?text=Easy%20English",
+    "thumbnail": "https://i.ytimg.com/vi/q_5WJbQZeoI/hqdefault.jpg",
     "link": "https://www.youtube.com/@EasyEnglishVideos",
-    "reason": "영국 거리 인터뷰를 통해 자연스러운 속도와 다양한 화자를 접할 수 있다."
+    "reason": "영국 거리 인터뷰를 통해 자연스러운 속도와 다양한 화자를 접할 수 있다.",
+    "accent": "uk",
+    "focus": [
+      "listening"
+    ],
+    "length_bucket": "10to20"
   },
   {
     "id": "yt-rachel-s-english",
@@ -169,11 +225,16 @@
     "level": "intermediate",
     "country": "미국/캐나다",
     "tags": [
-      "일상회화"
+      "발음·억양"
     ],
-    "thumbnail": "https://placehold.co/320x180/B96A17/FFFFFF?text=Rachel%27s%20English",
+    "thumbnail": "https://i.ytimg.com/vi/jm0q7O8-Ruo/hqdefault.jpg",
     "link": "https://www.youtube.com/@rachelsenglish",
-    "reason": "미국 영어의 연음·축약·강세를 실제 발화 중심으로 분석한다."
+    "reason": "미국 영어의 연음·축약·강세를 실제 발화 중심으로 분석한다.",
+    "accent": "us",
+    "focus": [
+      "listening"
+    ],
+    "length_bucket": "10to20"
   },
   {
     "id": "yt-english-with-lucy",
@@ -184,11 +245,17 @@
     "country": "영국",
     "tags": [
       "일상회화",
-      "비즈니스"
+      "비즈니스·회의"
     ],
-    "thumbnail": "https://placehold.co/320x180/B96A17/FFFFFF?text=English%20with%20Lucy",
+    "thumbnail": "https://i.ytimg.com/vi/66aG5P0kQpU/hqdefault.jpg",
     "link": "https://www.youtube.com/@EnglishwithLucy",
-    "reason": "자연스러운 영국식 속도이지만 설명 구조와 화면 예문이 명확하다."
+    "reason": "자연스러운 영국식 속도이지만 설명 구조와 화면 예문이 명확하다.",
+    "accent": "uk",
+    "focus": [
+      "grammar",
+      "listening"
+    ],
+    "length_bucket": "10to20"
   },
   {
     "id": "yt-mmmenglish",
@@ -198,12 +265,17 @@
     "level": "intermediate",
     "country": "호주",
     "tags": [
-      "일상회화",
-      "비즈니스"
+      "비즈니스·회의",
+      "발음·억양"
     ],
-    "thumbnail": "https://placehold.co/320x180/B96A17/FFFFFF?text=mmmEnglish",
+    "thumbnail": "https://i.ytimg.com/vi/tw25CM1MXlU/hqdefault.jpg",
     "link": "https://www.youtube.com/channel/UCrRiVfHqBIIvSgKmgnSY66g",
-    "reason": "호주식 발음으로 일상 및 직장 표현과 어휘의 뉘앙스를 설명한다."
+    "reason": "호주식 발음으로 일상 및 직장 표현과 어휘의 뉘앙스를 설명한다.",
+    "accent": "au",
+    "focus": [
+      "vocab"
+    ],
+    "length_bucket": "10to20"
   },
   {
     "id": "yt-go-natural-english",
@@ -213,11 +285,17 @@
     "level": "intermediate",
     "country": "미국/캐나다",
     "tags": [
-      "일상회화"
+      "일상회화",
+      "여행·문화"
     ],
-    "thumbnail": "https://placehold.co/320x180/B96A17/FFFFFF?text=Go%20Natural%20English",
+    "thumbnail": "https://i.ytimg.com/vi/X62W2fE2uOE/hqdefault.jpg",
     "link": "https://www.youtube.com/@gonaturalenglishlessons",
-    "reason": "교과서 표현보다 실제 미국인이 사용하는 관용구와 말하기 방식에 집중한다."
+    "reason": "교과서 표현보다 실제 미국인이 사용하는 관용구와 말하기 방식에 집중한다.",
+    "accent": "us",
+    "focus": [
+      "vocab"
+    ],
+    "length_bucket": "5to10"
   },
   {
     "id": "yt-reallife-english",
@@ -228,11 +306,16 @@
     "country": "기타",
     "tags": [
       "일상회화",
-      "여행"
+      "발음·억양"
     ],
-    "thumbnail": "https://placehold.co/320x180/B96A17/FFFFFF?text=RealLife%20English",
+    "thumbnail": "https://i.ytimg.com/vi/8TmF7uHu_Ls/hqdefault.jpg",
     "link": "https://www.youtube.com/@RealLifeEnglish1",
-    "reason": "여러 영어권 화자의 대화를 통해 원어민 속도와 다양한 억양을 훈련한다."
+    "reason": "여러 영어권 화자의 대화를 통해 원어민 속도와 다양한 억양을 훈련한다.",
+    "accent": "other",
+    "focus": [
+      "listening"
+    ],
+    "length_bucket": "10to20"
   },
   {
     "id": "yt-learn-english-with-tv-series",
@@ -242,12 +325,17 @@
     "level": "intermediate",
     "country": "기타",
     "tags": [
-      "드라마·영화",
-      "일상회화"
+      "드라마·영화"
     ],
-    "thumbnail": "https://placehold.co/320x180/B96A17/FFFFFF?text=Learn%20English%20With%20TV%20",
+    "thumbnail": "https://i.ytimg.com/vi/BJ2VqM1V_hQ/hqdefault.jpg",
     "link": "https://www.youtube.com/@LearnEnglishWithTVSeries",
-    "reason": "다양한 영어권 드라마·영화의 속어와 발음을 자막·해설로 분해한다."
+    "reason": "다양한 영어권 드라마·영화의 속어와 발음을 자막·해설로 분해한다.",
+    "accent": "other",
+    "focus": [
+      "vocab",
+      "listening"
+    ],
+    "length_bucket": "5to10"
   },
   {
     "id": "yt-business-english-pod",
@@ -257,11 +345,16 @@
     "level": "intermediate",
     "country": "미국/캐나다",
     "tags": [
-      "비즈니스"
+      "비즈니스·회의"
     ],
-    "thumbnail": "https://placehold.co/320x180/B96A17/FFFFFF?text=Business%20English%20Pod",
+    "thumbnail": "https://i.ytimg.com/vi/e7n2K5gR-rk/hqdefault.jpg",
     "link": "https://www.youtube.com/@BusinessEnglishPod",
-    "reason": "회의·협상·발표 등 반복되는 업무 상황의 핵심 표현을 체계적으로 다룬다."
+    "reason": "회의·협상·발표 등 반복되는 업무 상황의 핵심 표현을 체계적으로 다룬다.",
+    "accent": "us",
+    "focus": [
+      "vocab"
+    ],
+    "length_bucket": "10to20"
   },
   {
     "id": "yt-linguamarina",
@@ -272,11 +365,17 @@
     "country": "미국/캐나다",
     "tags": [
       "일상회화",
-      "비즈니스"
+      "비즈니스·회의"
     ],
-    "thumbnail": "https://placehold.co/320x180/B96A17/FFFFFF?text=Linguamarina",
+    "thumbnail": "https://i.ytimg.com/vi/MiebCHmiszs/hqdefault.jpg",
     "link": "https://www.youtube.com/@linguamarina",
-    "reason": "미국 생활과 업무 환경에서 사용하는 실용적인 표현을 자연스러운 속도로 설명한다."
+    "reason": "미국 생활과 업무 환경에서 사용하는 실용적인 표현을 자연스러운 속도로 설명한다.",
+    "accent": "us",
+    "focus": [
+      "vocab",
+      "listening"
+    ],
+    "length_bucket": "10to20"
   },
   {
     "id": "yt-etj-english",
@@ -286,11 +385,16 @@
     "level": "intermediate",
     "country": "영국",
     "tags": [
-      "일상회화"
+      "발음·억양"
     ],
-    "thumbnail": "https://placehold.co/320x180/B96A17/FFFFFF?text=ETJ%20English",
+    "thumbnail": "https://i.ytimg.com/vi/agUuOtgHdGY/hqdefault.jpg",
     "link": "https://www.youtube.com/@ETJEnglish",
-    "reason": "현대 영국식 발음과 억양, 자연스러운 구어 표현을 집중적으로 다룬다."
+    "reason": "현대 영국식 발음과 억양, 자연스러운 구어 표현을 집중적으로 다룬다.",
+    "accent": "uk",
+    "focus": [
+      "listening"
+    ],
+    "length_bucket": "10to20"
   },
   {
     "id": "yt-english-speaking-success",
@@ -300,12 +404,17 @@
     "level": "intermediate",
     "country": "영국",
     "tags": [
-      "일상회화",
-      "비즈니스"
+      "비즈니스·회의"
     ],
-    "thumbnail": "https://placehold.co/320x180/B96A17/FFFFFF?text=English%20Speaking%20Succe",
+    "thumbnail": "https://i.ytimg.com/vi/D6_qpaSxAQc/hqdefault.jpg",
     "link": "https://www.youtube.com/@EnglishSpeakingSuccess",
-    "reason": "영국 영어 기반의 IELTS 주제로 긴 답변과 중상급 어휘를 연습할 수 있다."
+    "reason": "영국 영어 기반의 IELTS 주제로 긴 답변과 중상급 어휘를 연습할 수 있다.",
+    "accent": "uk",
+    "focus": [
+      "vocab",
+      "advanced"
+    ],
+    "length_bucket": "10to20"
   },
   {
     "id": "yt-english-addict-with-mr-duncan",
@@ -316,11 +425,17 @@
     "country": "영국",
     "tags": [
       "일상회화",
-      "시사"
+      "코미디·밈"
     ],
-    "thumbnail": "https://placehold.co/320x180/B96A17/FFFFFF?text=English%20Addict%20with%20Mr",
+    "thumbnail": "https://i.ytimg.com/vi/WJwT_EHGE_c/hqdefault.jpg",
     "link": "https://www.youtube.com/@EnglishAddict",
-    "reason": "즉흥적인 영국 영어와 유머를 통해 긴 발화를 듣는 힘을 기를 수 있다."
+    "reason": "즉흥적인 영국 영어와 유머를 통해 긴 발화를 듣는 힘을 기를 수 있다.",
+    "accent": "uk",
+    "focus": [
+      "listening",
+      "casual"
+    ],
+    "length_bucket": "over20"
   },
   {
     "id": "yt-canguro-english",
@@ -331,11 +446,16 @@
     "country": "영국",
     "tags": [
       "일상회화",
-      "비즈니스"
+      "비즈니스·회의"
     ],
-    "thumbnail": "https://placehold.co/320x180/B96A17/FFFFFF?text=Canguro%20English",
+    "thumbnail": "https://i.ytimg.com/vi/k1uduN-i8R0/hqdefault.jpg",
     "link": "https://www.youtube.com/@Canguroenglish",
-    "reason": "영국식 영어로 학습법과 표현의 미묘한 차이를 긴 설명 형태로 전달한다."
+    "reason": "영국식 영어로 학습법과 표현의 미묘한 차이를 긴 설명 형태로 전달한다.",
+    "accent": "uk",
+    "focus": [
+      "vocab"
+    ],
+    "length_bucket": "10to20"
   },
   {
     "id": "yt-ted-ed",
@@ -345,11 +465,16 @@
     "level": "intermediate",
     "country": "기타",
     "tags": [
-      "시사"
+      "시사·뉴스"
     ],
-    "thumbnail": "https://placehold.co/320x180/B96A17/FFFFFF?text=TED-Ed",
+    "thumbnail": "https://i.ytimg.com/vi/xjcsrU-ZmgY/hqdefault.jpg",
     "link": "https://www.youtube.com/@TEDEd",
-    "reason": "여러 국가의 내레이션을 애니메이션과 영어 자막이 보조해 준다."
+    "reason": "여러 국가의 내레이션을 애니메이션과 영어 자막이 보조해 준다.",
+    "accent": "other",
+    "focus": [
+      "listening"
+    ],
+    "length_bucket": "1to5"
   },
   {
     "id": "yt-ted",
@@ -359,12 +484,17 @@
     "level": "advanced",
     "country": "기타",
     "tags": [
-      "시사",
-      "비즈니스"
+      "시사·뉴스",
+      "자기계발·동기부여"
     ],
-    "thumbnail": "https://placehold.co/320x180/5B3A9C/FFFFFF?text=TED",
+    "thumbnail": "https://i.ytimg.com/vi/9LTGzEzDat0/hqdefault.jpg",
     "link": "https://www.youtube.com/@TED",
-    "reason": "다양한 국적의 화자와 전문어·수사적 표현·발표체 영어가 등장한다."
+    "reason": "다양한 국적의 화자와 전문어·수사적 표현·발표체 영어가 등장한다.",
+    "accent": "other",
+    "focus": [
+      "advanced"
+    ],
+    "length_bucket": "10to20"
   },
   {
     "id": "yt-cnn-10",
@@ -374,11 +504,17 @@
     "level": "advanced",
     "country": "미국/캐나다",
     "tags": [
-      "시사"
+      "시사·뉴스"
     ],
-    "thumbnail": "https://placehold.co/320x180/5B3A9C/FFFFFF?text=CNN%2010",
+    "thumbnail": "https://i.ytimg.com/vi/hrbLPYXgjQY/hqdefault.jpg",
     "link": "https://www.youtube.com/@CNN10",
-    "reason": "빠른 뉴스 전달과 정치·경제·사회 관련 압축 어휘가 사용된다."
+    "reason": "빠른 뉴스 전달과 정치·경제·사회 관련 압축 어휘가 사용된다.",
+    "accent": "us",
+    "focus": [
+      "advanced",
+      "vocab"
+    ],
+    "length_bucket": "5to10"
   },
   {
     "id": "yt-dw-news",
@@ -388,11 +524,17 @@
     "level": "advanced",
     "country": "기타",
     "tags": [
-      "시사"
+      "시사·뉴스"
     ],
-    "thumbnail": "https://placehold.co/320x180/5B3A9C/FFFFFF?text=DW%20News",
+    "thumbnail": "https://i.ytimg.com/vi/LuKwFajn37U/hqdefault_live.jpg",
     "link": "https://www.youtube.com/@dwnews",
-    "reason": "국제 뉴스와 인터뷰에서 유럽을 비롯한 다양한 영어 억양을 접할 수 있다."
+    "reason": "국제 뉴스와 인터뷰에서 유럽을 비롯한 다양한 영어 억양을 접할 수 있다.",
+    "accent": "other",
+    "focus": [
+      "listening",
+      "advanced"
+    ],
+    "length_bucket": "5to10"
   },
   {
     "id": "yt-the-wall-street-journal",
@@ -402,12 +544,17 @@
     "level": "advanced",
     "country": "미국/캐나다",
     "tags": [
-      "비즈니스",
-      "시사"
+      "시사·뉴스",
+      "비즈니스·회의"
     ],
-    "thumbnail": "https://placehold.co/320x180/5B3A9C/FFFFFF?text=The%20Wall%20Street%20Journa",
+    "thumbnail": "https://i.ytimg.com/vi/WHqxBlFuIXA/hqdefault.jpg",
     "link": "https://www.youtube.com/@wsj",
-    "reason": "미국 경제·금융·산업 관련 전문어와 밀도 높은 분석 문장이 많다."
+    "reason": "미국 경제·금융·산업 관련 전문어와 밀도 높은 분석 문장이 많다.",
+    "accent": "us",
+    "focus": [
+      "advanced"
+    ],
+    "length_bucket": "5to10"
   },
   {
     "id": "yt-bloomberg-television",
@@ -417,12 +564,18 @@
     "level": "advanced",
     "country": "미국/캐나다",
     "tags": [
-      "비즈니스",
-      "시사"
+      "시사·뉴스",
+      "비즈니스·회의"
     ],
-    "thumbnail": "https://placehold.co/320x180/5B3A9C/FFFFFF?text=Bloomberg%20Television",
+    "thumbnail": "https://i.ytimg.com/vi/QB5BNdBFujE/hqdefault_live.jpg",
     "link": "https://www.youtube.com/@markets",
-    "reason": "빠른 인터뷰와 시장·기업·경제 전문용어가 집중적으로 등장한다."
+    "reason": "빠른 인터뷰와 시장·기업·경제 전문용어가 집중적으로 등장한다.",
+    "accent": "us",
+    "focus": [
+      "advanced",
+      "listening"
+    ],
+    "length_bucket": "5to10"
   },
   {
     "id": "yt-national-geographic",
@@ -432,12 +585,18 @@
     "level": "advanced",
     "country": "미국/캐나다",
     "tags": [
-      "여행",
-      "시사"
+      "여행·문화",
+      "시사·뉴스"
     ],
-    "thumbnail": "https://placehold.co/320x180/5B3A9C/FFFFFF?text=National%20Geographic",
+    "thumbnail": "https://i.ytimg.com/vi/4W_P_Yxhnt0/hqdefault.jpg",
     "link": "https://www.youtube.com/@NatGeo",
-    "reason": "미국식 내레이션을 중심으로 과학·환경·문화 전문어를 다룬다."
+    "reason": "미국식 내레이션을 중심으로 과학·환경·문화 전문어를 다룬다.",
+    "accent": "us",
+    "focus": [
+      "advanced",
+      "vocab"
+    ],
+    "length_bucket": "5to10"
   },
   {
     "id": "yt-tablo-hey-tablo",
@@ -447,12 +606,18 @@
     "level": "advanced",
     "country": "미국/캐나다",
     "tags": [
-      "일상회화",
-      "시사"
+      "케이팝·연예인",
+      "일상회화"
     ],
-    "thumbnail": "https://placehold.co/320x180/5B3A9C/FFFFFF?text=Tablo%20%E2%80%93%20Hey%20Tablo",
+    "thumbnail": "https://i.ytimg.com/vi/-zU4Mj9dpUI/hqdefault.jpg",
     "link": "https://www.youtube.com/@heytablo/shorts",
-    "reason": "북미식 영어로 진행되는 팟캐스트이며 말이 빠르고 유머·비유·즉흥 표현이 많다."
+    "reason": "북미식 영어로 진행되는 팟캐스트이며 말이 빠르고 유머·비유·즉흥 표현이 많다.",
+    "accent": "us",
+    "focus": [
+      "advanced",
+      "casual"
+    ],
+    "length_bucket": "under1"
   },
   {
     "id": "yt-in",
@@ -462,12 +627,18 @@
     "level": "intermediate",
     "country": "기타",
     "tags": [
-      "일상회화",
-      "드라마·영화"
+      "케이팝·연예인",
+      "일상회화"
     ],
-    "thumbnail": "https://placehold.co/320x180/B96A17/FFFFFF?text=%EC%9C%A0%EC%9E%AC%EB%AF%B8%20in%20%EC%98%81%EC%96%B4",
+    "thumbnail": "https://i.ytimg.com/vi/_Des8c6xPoE/hqdefault.jpg",
     "link": "https://www.youtube.com/@youjaemee/shorts",
-    "reason": "여러 원본 영상에 한영 자막과 학습 포인트를 더해 자연스러운 표현을 설명한다."
+    "reason": "여러 원본 영상에 한영 자막과 학습 포인트를 더해 자연스러운 표현을 설명한다.",
+    "accent": "other",
+    "focus": [
+      "vocab",
+      "casual"
+    ],
+    "length_bucket": "under1"
   },
   {
     "id": "yt-channel",
@@ -477,11 +648,16 @@
     "level": "beginner",
     "country": "기타",
     "tags": [
-      "일상회화"
+      "발음·억양"
     ],
-    "thumbnail": "https://placehold.co/320x180/2E5D50/FFFFFF?text=%EC%A3%BC%EC%95%84%EC%8C%A4_%EC%86%8C%EB%A6%AC%ED%8A%A0%EC%98%81%EC%96%B4",
+    "thumbnail": "https://i.ytimg.com/vi/cgQK_ylwiEY/hqdefault.jpg",
     "link": "https://www.youtube.com/@soritunenglish/shorts",
-    "reason": "한국어 설명과 반복 훈련으로 영어의 소리·연음·리듬을 기초부터 따라 할 수 있다."
+    "reason": "한국어 설명과 반복 훈련으로 영어의 소리·연음·리듬을 기초부터 따라 할 수 있다.",
+    "accent": "other",
+    "focus": [
+      "listening"
+    ],
+    "length_bucket": "under1"
   },
   {
     "id": "yt-channel-2",
@@ -491,12 +667,18 @@
     "level": "intermediate",
     "country": "기타",
     "tags": [
-      "일상회화",
-      "드라마·영화"
+      "드라마·영화",
+      "일상회화"
     ],
-    "thumbnail": "https://placehold.co/320x180/B96A17/FFFFFF?text=%EB%A6%B4%EC%8A%A4%EC%95%A0%EA%B8%B0",
+    "thumbnail": "https://i.ytimg.com/vi/31fQqB6K0Z0/hqdefault.jpg",
     "link": "https://www.youtube.com/@%EB%A6%B4%EC%8A%A4%EC%95%A0%EA%B8%B0",
-    "reason": "여러 국가의 원어민 영상에 한영 자막과 표현 해설을 덧붙인다."
+    "reason": "여러 국가의 원어민 영상에 한영 자막과 표현 해설을 덧붙인다.",
+    "accent": "other",
+    "focus": [
+      "vocab",
+      "casual"
+    ],
+    "length_bucket": "1to5"
   },
   {
     "id": "yt-hello-jennie",
@@ -506,11 +688,18 @@
     "level": "intermediate",
     "country": "미국/캐나다",
     "tags": [
-      "일상회화"
+      "일상회화",
+      "드라마·영화"
     ],
-    "thumbnail": "https://placehold.co/320x180/B96A17/FFFFFF?text=Hello%20Jennie",
+    "thumbnail": "https://i.ytimg.com/vi/tEL4jaivrtc/hqdefault.jpg",
     "link": "https://www.youtube.com/@hellojennie_english/shorts",
-    "reason": "미국 영어 중심의 실제 회화 표현과 문법을 한국인 학습자의 관점에서 설명한다."
+    "reason": "미국 영어 중심의 실제 회화 표현과 문법을 한국인 학습자의 관점에서 설명한다.",
+    "accent": "us",
+    "focus": [
+      "grammar",
+      "vocab"
+    ],
+    "length_bucket": "under1"
   },
   {
     "id": "yt-channel-3",
@@ -520,12 +709,18 @@
     "level": "intermediate",
     "country": "기타",
     "tags": [
-      "일상회화",
-      "드라마·영화"
+      "드라마·영화",
+      "발음·억양"
     ],
-    "thumbnail": "https://placehold.co/320x180/B96A17/FFFFFF?text=%EB%A6%AC%ED%95%8F%EC%96%B4%EA%B2%8C%EC%9D%B8",
+    "thumbnail": "https://i.ytimg.com/vi/qtrAKXQ1xxA/hqdefault.jpg",
     "link": "https://www.youtube.com/@Repeat_Again/shorts",
-    "reason": "여러 영어 영상 클립을 연상법과 반복 방식으로 재구성해 쉐도잉에 활용할 수 있다."
+    "reason": "여러 영어 영상 클립을 연상법과 반복 방식으로 재구성해 쉐도잉에 활용할 수 있다.",
+    "accent": "other",
+    "focus": [
+      "listening",
+      "vocab"
+    ],
+    "length_bucket": "under1"
   },
   {
     "id": "yt-heechan",
@@ -535,12 +730,16 @@
     "level": "advanced",
     "country": "기타",
     "tags": [
-      "일상회화",
-      "시사"
+      "일상회화"
     ],
-    "thumbnail": "https://placehold.co/320x180/5B3A9C/FFFFFF?text=%ED%9D%AC%EC%95%BC%EA%B8%B0%20%7C%20HeeChan",
+    "thumbnail": "https://i.ytimg.com/vi/BTpekjpfGEw/hqdefault.jpg",
     "link": "https://www.youtube.com/@heesstory/shorts",
-    "reason": "영어 전용 채널은 아니므로 영어 화자·인터뷰가 포함된 영상만 선별해야 하며 주 학습 자료보다는 보조 자료에 가깝다."
+    "reason": "영어 전용 채널은 아니므로 영어 화자·인터뷰가 포함된 영상만 선별해야 하며 주 학습 자료보다는 보조 자료에 가깝다.",
+    "accent": "other",
+    "focus": [
+      "casual"
+    ],
+    "length_bucket": "under1"
   },
   {
     "id": "yt-busan-english-broadcasting",
@@ -550,12 +749,17 @@
     "level": "intermediate",
     "country": "기타",
     "tags": [
-      "일상회화",
-      "시사"
+      "시사·뉴스",
+      "일상회화"
     ],
-    "thumbnail": "https://placehold.co/320x180/B96A17/FFFFFF?text=%EB%B6%80%EC%82%B0%EC%98%81%EC%96%B4%EB%B0%A9%EC%86%A1%20Busan%20English%20B",
+    "thumbnail": "https://i.ytimg.com/vi/CZCAZv1RO0E/hqdefault.jpg",
     "link": "https://www.youtube.com/@befm/shorts",
-    "reason": "여러 국적의 진행자·출연자가 참여하는 방송과 인터뷰로 다양한 억양을 들을 수 있다."
+    "reason": "여러 국적의 진행자·출연자가 참여하는 방송과 인터뷰로 다양한 억양을 들을 수 있다.",
+    "accent": "other",
+    "focus": [
+      "listening"
+    ],
+    "length_bucket": "under1"
   },
   {
     "id": "yt-channel-4",
@@ -565,12 +769,17 @@
     "level": "intermediate",
     "country": "기타",
     "tags": [
-      "일상회화",
-      "드라마·영화"
+      "코미디·밈"
     ],
-    "thumbnail": "https://placehold.co/320x180/B96A17/FFFFFF?text=%EC%BD%94%EB%AF%B9%ED%95%9C%EC%98%81%EC%96%B4",
+    "thumbnail": "https://i.ytimg.com/vi/aLtIP3uOnAM/hqdefault.jpg",
     "link": "https://www.youtube.com/@%EC%BD%94%EB%AF%B9%ED%95%9C%EC%98%81%EC%96%B4/shorts",
-    "reason": "다양한 코미디 영어를 자막과 함께 짧게 반복해 일상 반응 표현을 익힐 수 있다."
+    "reason": "다양한 코미디 영어를 자막과 함께 짧게 반복해 일상 반응 표현을 익힐 수 있다.",
+    "accent": "other",
+    "focus": [
+      "casual",
+      "vocab"
+    ],
+    "length_bucket": "under1"
   },
   {
     "id": "yt-channel-5",
@@ -580,12 +789,17 @@
     "level": "advanced",
     "country": "미국/캐나다",
     "tags": [
-      "일상회화",
-      "드라마·영화"
+      "코미디·밈"
     ],
-    "thumbnail": "https://placehold.co/320x180/5B3A9C/FFFFFF?text=%EB%A7%B7%20%EB%9D%BC%EC%9D%B4%ED%94%84%20%EB%8D%95%EC%A7%88%EC%9A%A9%20%EC%B1%84%EB%84%90",
+    "thumbnail": "https://i.ytimg.com/vi/qHbD3_dWPVo/hqdefault.jpg",
     "link": "https://www.youtube.com/@%EB%A7%B7%EB%9D%BC%EC%9D%B4%ED%94%84%EB%8D%95%EC%A7%88%EC%9A%A9%EC%B1%84%EB%84%90/shorts",
-    "reason": "미국 스탠드업 코미디 특유의 빠른 속도, 성인 속어, 말장난이 많다."
+    "reason": "미국 스탠드업 코미디 특유의 빠른 속도, 성인 속어, 말장난이 많다.",
+    "accent": "us",
+    "focus": [
+      "advanced",
+      "casual"
+    ],
+    "length_bucket": "under1"
   },
   {
     "id": "yt-channel-6",
@@ -595,12 +809,18 @@
     "level": "intermediate",
     "country": "영국",
     "tags": [
-      "일상회화",
-      "드라마·영화"
+      "코미디·밈",
+      "케이팝·연예인"
     ],
-    "thumbnail": "https://placehold.co/320x180/B96A17/FFFFFF?text=%EC%8F%98%EC%99%93%EC%8A%A4%ED%94%BD",
+    "thumbnail": "https://i.ytimg.com/vi/n7etF48qY4Q/hqdefault.jpg",
     "link": "https://www.youtube.com/@sowhatspeak/shorts",
-    "reason": "영국 인터뷰·예능 클립을 통해 영국식 발음과 자연스러운 질문·반응을 익힐 수 있다."
+    "reason": "영국 인터뷰·예능 클립을 통해 영국식 발음과 자연스러운 질문·반응을 익힐 수 있다.",
+    "accent": "uk",
+    "focus": [
+      "listening",
+      "casual"
+    ],
+    "length_bucket": "under1"
   },
   {
     "id": "yt-intelligence",
@@ -610,12 +830,17 @@
     "level": "advanced",
     "country": "기타",
     "tags": [
-      "일상회화",
-      "시사"
+      "자기계발·동기부여"
     ],
-    "thumbnail": "https://placehold.co/320x180/5B3A9C/FFFFFF?text=Intelligence",
+    "thumbnail": "https://i.ytimg.com/vi/eRYm2gTRJN0/hqdefault.jpg",
     "link": "https://www.youtube.com/@%EC%9D%B8%ED%85%94%EB%A6%AC%EC%A0%84%EC%8A%A4/shorts",
-    "reason": "여러 화자의 동기부여·자기계발 클립으로 추상어휘와 압축된 메시지가 많다."
+    "reason": "여러 화자의 동기부여·자기계발 클립으로 추상어휘와 압축된 메시지가 많다.",
+    "accent": "other",
+    "focus": [
+      "advanced",
+      "vocab"
+    ],
+    "length_bucket": "under1"
   },
   {
     "id": "yt-channel-7",
@@ -625,12 +850,17 @@
     "level": "advanced",
     "country": "미국/캐나다",
     "tags": [
-      "일상회화",
-      "시사"
+      "코미디·밈"
     ],
-    "thumbnail": "https://placehold.co/320x180/5B3A9C/FFFFFF?text=%EC%A0%A0%EC%A7%80%EB%B0%88",
+    "thumbnail": "https://i.ytimg.com/vi/T1k57LOb1wA/hqdefault.jpg",
     "link": "https://www.youtube.com/@genzmemenglish/shorts",
-    "reason": "북미 Z세대 영상의 최신 속어·밈·축약 표현과 빠른 발화를 다룬다."
+    "reason": "북미 Z세대 영상의 최신 속어·밈·축약 표현과 빠른 발화를 다룬다.",
+    "accent": "us",
+    "focus": [
+      "casual",
+      "advanced"
+    ],
+    "length_bucket": "under1"
   },
   {
     "id": "yt-talk-like-a-star",
@@ -640,12 +870,18 @@
     "level": "intermediate",
     "country": "기타",
     "tags": [
-      "일상회화",
-      "드라마·영화"
+      "케이팝·연예인",
+      "코미디·밈"
     ],
-    "thumbnail": "https://placehold.co/320x180/B96A17/FFFFFF?text=Talk%20Like%20a%20Star",
+    "thumbnail": "https://i.ytimg.com/vi/PL-icu9ZYoc/hqdefault.jpg",
     "link": "https://www.youtube.com/@TalkLikeaStar/shorts",
-    "reason": "여러 유명인의 인터뷰와 대화를 통해 자연스러운 반응 표현을 익힐 수 있다."
+    "reason": "여러 유명인의 인터뷰와 대화를 통해 자연스러운 반응 표현을 익힐 수 있다.",
+    "accent": "other",
+    "focus": [
+      "vocab",
+      "casual"
+    ],
+    "length_bucket": "under1"
   },
   {
     "id": "yt-channel-8",
@@ -655,12 +891,17 @@
     "level": "intermediate",
     "country": "미국/캐나다",
     "tags": [
-      "드라마·영화",
-      "일상회화"
+      "드라마·영화"
     ],
-    "thumbnail": "https://placehold.co/320x180/B96A17/FFFFFF?text=%ED%95%A0%EB%A6%AC%EC%9A%B0%EB%93%9C%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8",
+    "thumbnail": "https://i.ytimg.com/vi/Gu7t_AEALxs/hqdefault.jpg",
     "link": "https://www.youtube.com/@%ED%95%A0%EB%A6%AC%EC%9A%B0%EB%93%9C%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8",
-    "reason": "미국 영화·할리우드 콘텐츠의 실제 대사를 장면 문맥과 함께 접할 수 있다."
+    "reason": "미국 영화·할리우드 콘텐츠의 실제 대사를 장면 문맥과 함께 접할 수 있다.",
+    "accent": "us",
+    "focus": [
+      "casual",
+      "vocab"
+    ],
+    "length_bucket": "5to10"
   },
   {
     "id": "yt-channel-9",
@@ -670,11 +911,16 @@
     "level": "advanced",
     "country": "기타",
     "tags": [
-      "일상회화",
-      "드라마·영화"
+      "코미디·밈"
     ],
-    "thumbnail": "https://placehold.co/320x180/5B3A9C/FFFFFF?text=%EA%B9%94%EA%B9%94%ED%86%A1",
+    "thumbnail": "https://i.ytimg.com/vi/2jl9njeYito/hqdefault.jpg",
     "link": "https://www.youtube.com/@%EA%B9%94%EA%B9%94%ED%86%A1-n8w",
-    "reason": "코미디·예능식 대화의 빠른 타이밍과 속어·빈정거림·말장난을 이해해야 한다."
+    "reason": "코미디·예능식 대화의 빠른 타이밍과 속어·빈정거림·말장난을 이해해야 한다.",
+    "accent": "other",
+    "focus": [
+      "casual",
+      "advanced"
+    ],
+    "length_bucket": "5to10"
   }
 ]
