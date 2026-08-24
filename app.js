@@ -172,7 +172,7 @@ function render() {
   }
 
   if (state.step === "concern") {
-    heroTitle.textContent = "요즘 영어로 말할 때 제일 걸리는 계 무엇인가요? ";
+    heroTitle.textContent = "영어로 말할 때 제일 신경쓰이는 점은 무엇인가요? ";
     heroSub.textContent = "솔직하게 골라주세요.";
     app.innerHTML = `
       <div class="step-panel">
@@ -391,7 +391,7 @@ function cardTemplate(item) {
 function renderResults() {
   const results = getRecommendations();
   heroTitle.textContent =
-    state.answers.concern === "casual" ? "짜잔, 이거 어때요? 🎉" : "완전 취향 저격 추천이에요 🎯";
+    state.answers.concern === "casual" ? "짜잔, 이거 어때요? 🎉" : "취향 저격 영상 모음, 도착! 📬";
   heroSub.textContent =
     results.length > 0
       ? "마음에 드는 채널 클릭해서 바로 보러 가세요."
