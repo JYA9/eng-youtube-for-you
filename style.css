@@ -104,8 +104,13 @@ body.intro-open { overflow: hidden; }
   filter: blur(5px);
 }
 
-.intro-line-first { animation: intro-first 3.9s ease both; }
-.intro-line-second { animation: intro-second 3.9s ease both; }
+.intro-line-first {
+  animation: intro-first 4.5s ease both;
+}
+
+.intro-line-second {
+  animation: intro-second 4.5s ease both;
+}
 
 .intro-skip {
   position: absolute;
@@ -142,15 +147,43 @@ body.intro-open { overflow: hidden; }
 }
 
 @keyframes intro-first {
-  0%, 5% { opacity: 0; transform: translateY(12px); filter: blur(5px); }
-  18%, 42% { opacity: 1; transform: translateY(0); filter: blur(0); }
-  52%, 100% { opacity: 0; transform: translateY(-9px); filter: blur(3px); }
+  0%, 4% {
+    opacity: 0;
+    transform: translateY(12px);
+    filter: blur(5px);
+  }
+
+  12%, 47% {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+
+  55%, 100% {
+    opacity: 0;
+    transform: translateY(-9px);
+    filter: blur(3px);
+  }
 }
 
 @keyframes intro-second {
-  0%, 47% { opacity: 0; transform: translateY(12px); filter: blur(5px); }
-  62%, 92% { opacity: 1; transform: translateY(0); filter: blur(0); }
-  100% { opacity: 0; transform: translateY(-5px); filter: blur(2px); }
+  0%, 53% {
+    opacity: 0;
+    transform: translateY(12px);
+    filter: blur(5px);
+  }
+
+  62%, 94% {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-5px);
+    filter: blur(2px);
+  }
 }
 
 @keyframes intro-progress {
@@ -528,7 +561,9 @@ body.intro-open { overflow: hidden; }
 @media (prefers-reduced-motion: reduce) {
   .intro-screen::before,
   .intro-line,
-  .intro-progress::after { animation: none; }
+  .intro-progress::after {
+  animation: intro-progress 4.5s linear both;
+  }
   .intro-line-first { display: none; }
   .intro-line-second { opacity: 1; transform: none; filter: none; }
 }

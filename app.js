@@ -515,7 +515,7 @@ skip.addEventListener("click", () => {
   trackClarityEvent("intro_skipped");
   closeIntro();
 });
-  closeTimer = window.setTimeout(closeIntro, reduceMotion ? 900 : 3900);
+  closeTimer = window.setTimeout(closeIntro, reduceMotion ? 900 : 4500);
 }
 
 async function loadContent() {
